@@ -8,6 +8,14 @@
 
 #define FN_F24  LT(3, KC_F24)
 #define FN_MENU LT(4, KC_APP)
+#define WN_LEFT RGUI(KC_LEFT)
+#define WN_DOWN RGUI(KC_DOWN)
+#define WN_UP   RGUI(KC_UP  )
+#define WN_RGHT RGUI(KC_RGHT)
+#define SC_MAX  RGUI(KC_PGUP)
+#define SC_MIN  RGUI(KC_PGDN)
+#define SC_LEFT  RSG(KC_LEFT)
+#define SC_RGHT  RSG(KC_RGHT)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -39,8 +47,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______,
     _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______,          _______, _______, _______, _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-    _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______,          _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, XXXXXXX, XXXXXXX,
-    _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______,          _______, _______, _______, _______, KC_PGDN, KC_PGUP, XXXXXXX, XXXXXXX, _______,
+    _______, WN_LEFT, WN_DOWN, WN_UP  , WN_RGHT, XXXXXXX, _______, _______, _______,          _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, XXXXXXX, XXXXXXX,
+    _______, SC_LEFT, SC_MIN , SC_MAX , SC_RGHT, XXXXXXX, _______, _______, _______,          _______, _______, _______, _______, KC_PGDN, KC_PGUP, XXXXXXX, XXXXXXX, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______
     ),
 [_SYM] = LAYOUT(
