@@ -25,3 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 // #define MASTER_RIGHT
 // #define EE_HANDS
+
+// #define PRODUCT "wizurdz awtism keebored"
+// #define TAPPING_TERM 500 // describes length of time a key must be held before being registered as a hold
