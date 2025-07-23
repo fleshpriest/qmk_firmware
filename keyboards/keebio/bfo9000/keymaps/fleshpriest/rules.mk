@@ -1,2 +1,1 @@
-# Bootloader selection
 BOOTLOADER = usbasploader
