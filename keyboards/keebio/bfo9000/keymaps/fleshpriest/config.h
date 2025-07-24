@@ -27,5 +27,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 #undef PRODUCT
-#define PRODUCT "the wizurdz keyb"
+#define PRODUCT "Not a TROJAN trust me bro"
 // #define TAPPING_TERM 500 // describes length of time a key must be held before being registered as a hold
